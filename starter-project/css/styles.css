@@ -17,6 +17,6 @@ h1 {
     grid-template-columns: [fill-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
 }
 
-.grid>  {
+.grid> * {
     grid-column: main;
 }
