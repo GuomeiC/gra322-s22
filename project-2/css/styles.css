@@ -72,9 +72,13 @@ figcaption {
     padding: 5rem 0;
 }
 
-.footer p{
-    background-color:var(--gray);
-    padding: 1.5rem,
+footer {
+    background-color: var(--gray-light);
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 800px) {
