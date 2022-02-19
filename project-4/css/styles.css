@@ -1,0 +1,68 @@
+header {
+    background: #f0b736;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  h1{
+    color: #0A1C01;
+    font-size: 80px;
+    letter-spacing: 5px; 
+  }
+  
+  h2{
+    color: #0A1C01;
+    padding: 1px;
+    font-size:24px;
+    margin: 1rem auto 3rem auto;
+  }
+  
+  ul{
+    width: auto;
+    padding: 30px;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    font-size: 30px;
+    background: #0A1C01;
+    
+  }
+  
+  li{
+    display: inline;
+    margin: 100px;
+    color: #fff;
+  }
+  
+  img {
+    float: left;
+    margin: 40px 100px 100px 210px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .overview {
+    padding: 2rem 0; 
+}
+
+h3{
+    margin-top: 100px;
+}
+
+ p{
+      margin-top: 5px;
+      margin: 100px;
+      color:#0A1C01;
+      letter-spacing: 1px;
+      line-height:1.5;
+      margin-bottom: 1rem;
+    
+
+  }
+
+
+
+
+  
+  
+
+  
+  
