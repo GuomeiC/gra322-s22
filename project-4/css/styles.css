@@ -32,31 +32,83 @@ header {
     color: #fff;
   }
   
-  img {
+  img.one {
     float: left;
-    margin: 40px 100px 100px 210px;
+    margin: 4px 20px 20px 150px;
     width: 500px;
     height: 350px;
+    margin-bottom: 1rem;
   }
 
   .overview {
     padding: 2rem 0; 
 }
 
-h3{
-    margin-top: 100px;
-}
 
- p{
-      margin-top: 5px;
-      margin: 100px;
+ p.one {
+      margin-top: 1px;
+      margin: 30px;
       color:#0A1C01;
       letter-spacing: 1px;
       line-height:1.5;
       margin-bottom: 1rem;
-    
+      font-size: 50px; 
 
   }
+
+p.two {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+h3 {
+  background-color: #f0b736;
+  margin-top: 150px;
+  width: 210px;
+  text-align: center;
+  font-size: 30px;
+}
+
+p.three {
+  font-size: 20px;
+  width: 210px;
+  text-align: right;
+  margin-top: 100px;
+}
+
+img.two {
+  float: left;
+  margin: 4px 20px 20px 150px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 1rem;
+
+}
+
+table.one {
+  width: 210px;
+  text-align: left;
+  line-height: 28px;
+  margin-left: 300px;
+}
+
+table.two {
+  width: 210px;
+  text-align: left;
+  line-height: 28px;
+  margin-left: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
