@@ -45,7 +45,7 @@ header {
 }
 
 
- p.one {
+  p.one {
       margin-top: 1px;
       margin: 30px;
       color:#0A1C01;
@@ -78,9 +78,9 @@ p.three {
 
 img.two {
   float: left;
-  margin: 4px 20px 20px 150px;
-  width: 700px;
-  height: 420px;
+  margin: 20px 20px 20px 150px;
+  width: 600px;
+  height: 400px;
   margin-bottom: 1rem;
 
 }
@@ -106,15 +106,37 @@ table.two {
 img.three {
   width: 1000px;
   height: 400px;
-  margin: 4px 20px 20px 150px;
+  margin: 40px 20px 50px 150px;
  
 }
 
 h4 {
-  margin: 4px 20px 20px 150px;
+  font-size: 20px;
+  margin: 40px 20px 4px 150px;
 
 }
 
+h5  {
+  font-size: 15px;
+  margin: 0px 0px 20px 150px;
+}
+
+h4.two {
+  font-size: 20px;
+  margin-top: 40px;
+
+}
+
+footer {
+  background-color:#0A1C01;
+  color: #fff;
+  padding: 7rem 0;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+
+}
 
 
 
