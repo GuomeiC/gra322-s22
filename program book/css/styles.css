@@ -63,6 +63,7 @@ p {
 }
 
 footer {
+    color:var(--gray);
     margin-top: 40px;
     background-color: #C2D1E4;
     padding: 1.5rem 0;
