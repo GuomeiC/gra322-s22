@@ -31,6 +31,7 @@ header {
     color: var(--gray);
     font-family: 'Helvetica Neue';
     font-size: 10px;
+    line-height: 22px;
 }
 
 .bottom {
@@ -59,6 +60,7 @@ p {
     margin-top: 10px;
     margin-bottom: 30px;
     color:var(--gray);
+    padding-top: 20px;
 
 }
 
@@ -66,5 +68,14 @@ footer {
     color:var(--gray);
     margin-top: 40px;
     background-color: #C2D1E4;
-    padding: 1.5rem 0;
+    
 }
+
+a {
+    text-decoration: none;
+    color:var(--gray);
+}
+
+a:hover {
+    color: #C2D1E4; 
+  }
