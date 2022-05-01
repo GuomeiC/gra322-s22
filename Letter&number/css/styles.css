@@ -38,6 +38,14 @@ header {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-family: 'Helvetica Neue';
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color:var(--gray);
+}
+
 
 
 @media screen and (min-width: 800px) {
@@ -48,13 +56,41 @@ header {
     }
 }
 
+@media screen and (min-width: 800px) {
+    .four-column {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .four-column {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 p {
     font-family: 'Helvetica Neue';
     margin-top: 10px;
     margin-bottom: 30px;
     color:var(--gray);
-    padding-top: 20px;
 
+}
+
+h1 {
+    font-family: 'Helvetica Neue';
+    color:var(--gray);
+    font-size: 20px;
+
+
+}
+
+.hide{
+    color:#fff;
+    padding: 5px 0,
 }
 
 footer {

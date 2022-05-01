@@ -54,6 +54,22 @@ h2 {
     }
 }
 
+@media screen and (min-width: 800px) {
+    .three-column {
+        display: grid;
+        grid-gap: 4rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .three-column {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 p {
     font-family: 'Helvetica Neue';
     margin-top: 10px;
@@ -76,3 +92,8 @@ footer {
     background-color: #C2D1E4;
     padding: 5px 0;
 }
+
+.hide{
+    color:#fff;
+}
+
