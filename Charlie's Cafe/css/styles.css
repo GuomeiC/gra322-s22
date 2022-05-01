@@ -94,14 +94,14 @@ h4{
 }
 
 .imgtwo {
-    max-width: 600px;
+    max-width: 100%;
     margin-bottom: 25px;
 }
 
 table.one {
     font-size: 15px;
     margin-top: 20px;
-    width: 375px;
+    max-width: 100%;
     text-align: left;
     line-height: 27px;
     color:var(--gray);
@@ -117,7 +117,7 @@ thead {
 }
 
 .imgthree {
-    max-width: 1280px;
+    max-width: 100%;
     margin-bottom: 25px;
 }
 

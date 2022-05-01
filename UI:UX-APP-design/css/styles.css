@@ -36,16 +36,9 @@ header {
 
 .bottom {
     margin-bottom: 20px;
-
 }
 
-h2 {
-    font-family: 'Helvetica Neue';
-    font-size: 40px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    color:var(--gray);
-}
+
 
 @media screen and (min-width: 800px) {
     .two-column {
@@ -70,12 +63,3 @@ footer {
     background-color: #C2D1E4;
     padding: 5px 0;
 }
-
-a {
-    text-decoration: none;
-    color:var(--gray);
-}
-
-a:hover {
-    color: #C2D1E4; 
-  }

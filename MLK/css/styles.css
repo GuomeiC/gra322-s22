@@ -31,7 +31,6 @@ header {
     color: var(--gray);
     font-family: 'Helvetica Neue';
     font-size: 10px;
-    line-height: 22px;
 }
 
 .bottom {
@@ -55,12 +54,28 @@ h2 {
     }
 }
 
+@media screen and (min-width: 800px) {
+    .four-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 p {
     font-family: 'Helvetica Neue';
     margin-top: 10px;
     margin-bottom: 30px;
     color:var(--gray);
-    padding-top: 20px;
+
+}
+
+h1 {
+    font-family: 'Helvetica Neue';
+    color:var(--gray);
+    font-size: 20px;
+    padding: 10px 0;
+
 
 }
 
@@ -71,11 +86,6 @@ footer {
     padding: 5px 0;
 }
 
-a {
-    text-decoration: none;
-    color:var(--gray);
+.hide{
+    color:#fff;
 }
-
-a:hover {
-    color: #C2D1E4; 
-  }
